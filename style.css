@@ -58,6 +58,81 @@ img {
     font-size: 1.2rem;
 }
 
+/* Style the Catagory containers */
+
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the container div */
+#catagory-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the category list */
+#catagory-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the category product div */
+#catagory-product {
+  display: flex;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Style the category name */
+#catagory-product h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style the product details */
+#product-details {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Style the product name */
+#product-details h5 {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Style the price */
+#product-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Style the product images */
+#product-image img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
 /* Add more CSS rules as needed to customize your page */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
