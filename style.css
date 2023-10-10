@@ -286,3 +286,11 @@ body {
   font-size: 40px;
   font-weight: 700;
 }
+
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
